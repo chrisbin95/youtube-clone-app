@@ -7,7 +7,6 @@ import VideoInfo from '../VideoInfo/VideoInfo';
 import axios from 'axios';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Alert from '@material-ui/lab/Alert';
-import SideBar from '../SideBar/SideBar';
 
 const VideoPlayer = () => {
     let { videoId } = useParams();
